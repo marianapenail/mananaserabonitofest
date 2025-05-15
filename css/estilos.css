@@ -1,0 +1,176 @@
+
+  body {
+    background-color: #fefefe;
+    color: #222;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #ff5c8a url(../Imagenes/portada.png) no-repeat right;
+    color: white;
+    text-align: left;
+    padding:0 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  h1{ 
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size: 180%;
+  }
+  .vibra{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      justify-content: center;
+    color: #222;
+    font-size: 150%;
+    font-weight: bold;
+  }
+  .ubicacion{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+justify-content:left;
+color: #222;
+font-size: 150%;
+font-weight: bold;
+  }
+.full{
+    width: 100%;
+}
+  .vuelos, .hoteles, .visados{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size: 130%;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+   
+    height: 50px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .boton-entradas {
+    background-color: #fff;
+    color: #ff5c8a;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 2rem 1rem;
+  }
+  .quienes, .info-viaje, .redes, .registro {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .quienesomos{
+      display: flex;
+      align-items: center;
+      column-gap: 60px;
+  }
+  
+  .quienesomos h2, .info-viaje h3 {
+    color: #ff5c8a;
+    margin-bottom: 1rem;
+    left: 50%;
+    font-weight: bold;
+    
+  }
+  .p1{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold;
+  }
+  
+  strong{
+    color: #ff5c8a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+  }
+  .boton-festival, .boton-guia {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff5c8a;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .info-viaje {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .insta{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff5c8a;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .mejor{
+    color: #ff5c8a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 200%;
+  }
+  .p4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+  }
+  .info-viaje div {
+    flex: 1 1 200px;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .h3f{
+      color: rgb(255, 255, 255);
+      font-size: 200%;
+      font-weight: bold;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 1rem 0;
+    font-size: 150%;
+    font-weight: bold;
+  }
+  
+  footer .social a {
+    color: #ff5c8a;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fff;
+    color: #ff5c8a;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
