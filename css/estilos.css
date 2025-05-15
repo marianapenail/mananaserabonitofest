@@ -173,4 +173,8 @@ font-weight: bold;
     padding: 0.5rem 1rem;
     border-radius: 5px;
   }
-  
+  @media (max-width: 768px){
+      .botones {
+          flex-direction: column ;
+      }
+  }
